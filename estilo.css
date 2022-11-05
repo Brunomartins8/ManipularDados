@@ -1,17 +1,30 @@
+<!DOCTYPE html>
+	
+<html lang="pt" class="translated-ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<body class="html">
+</head>
+ 
+
+</head>
+</body>
+
+<style>
 body {
+  margin: 10;
   font-family: serif;
-  font-weight: none;
-  font-size: none;
-  color: black;
-  background-color: white;
+  font-weight: bold;
+  background-color: black;
 }
 
 .topnav {
   overflow: hidden;
-  background-color: none;
+  background-color: red;
 }
 
 .topnav a {
+  float: left;
   display: block;
   color: white;
   text-align: center;
@@ -42,11 +55,7 @@ body {
 }
 
 @media screen and (max-width: 1080px) {
-  .topnav a:not(:first-child) {
-   display: none;
-   background-color: white;
-   color: black;
-}
+  .topnav a:not(:first-child) {display: none; background: rgba(0, 0, 0, 0.9);}
   .topnav a.icon {
     float: right;
     display: block;
@@ -60,20 +69,37 @@ body {
     display: block;
     text-align: top;
 }
-
+.título {
+	background-color: none;
+	font-family: serif;
+	font-weight: bold;
+	color:white;
+    font-size: 20px;
+}
+.texto_1 {
+	font-family: serif;
+	font-weight: bold;
+    font-size: 30px;
+	color:white;
+	text-align: center;
+}
+.texto_2 {
+	font-family: serif;
+	font-weight: bold;
+    font-size: 20px;
+	color:white;
+}
 .hex_editor {
   background-image: url("logotipo_hack.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: none;
   border-collapse: collapse;
-  width: 68%;
-  height: 53%;
 }
 
 .crew0 {
-  width: 68%;
-  height: 53%;
+  width: 400px;
+  height: 400px;
   background-image: url("0.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -82,8 +108,8 @@ body {
 }
 
 .crew1 {
-  width: 68%;
-  height: 53%;
+  width: 400px;
+  height: 400px;
   background-image: url("1.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -92,13 +118,39 @@ body {
 }
 
 .txt {
+  width: none;
+  height: none;
   position: relative;
   top: -42%;
   color: black;
   font-size: 10px;
   font-family: serif;
  }
- .aviso {
- 	color: red;
+</style>
+
+<div class="topnav" id="myTopnav">
+ <a class="icon" onclick="myFunction()">
+ <div class="bar_menu"></div>
+ <div class="bar_menu"></div>
+ <div class="bar_menu"></div> 
+ <a  class="AX" href="https://youtube.com/channel/UCHTywh75kd5sTXtV2Z6AGBA">YouTube</a>
+ <a  class="AX" href="https://m.apkpure.com/br/es-file-explorer-file-manager/com.estrongs.android.pop/download?from=amp_detail&_gl=1*839rrd*_ga*YW1wLTlEbGJuV0p2UzJ3RjdXUzBNZWkyVHVwZUxrUmhjeEI1bDAxWko1ZEQxOFlLR2o5enhmWEhScGM3YUtJQ3NVa2w.">Baixar Es File Explorer</a>
+ <a  class="AX" href="https://www.paypal.com/donate/?business=FRQNBF8355824&no_recurring=0&item_name=Olá preciso da sua ajuda!&currency_code=BRL">Doar</a>
+</div>
+<br>
+</br>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
 }
- 	
+</script>
+
+</body>
+</html>
