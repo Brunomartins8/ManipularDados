@@ -60,12 +60,10 @@ button {
 }
 
 .hex_editor, tr {
-  width: 250px;
-  height: 320px;
   background-image: url("logotipo_hack.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: none;
+  background-size: 250px 320px;
   border-collapse: collapse;
 }
 .crew0 {
