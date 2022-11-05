@@ -64,14 +64,15 @@ button {
 .aviso {
 	color: red;
 }
-.hex_editor, tr {
-  width: 100%;
-  height: 30%;
+	
+.hex_editor {
   border-collapse: none;
-  background-image: url("logotipo_hack.png"); 
   background-repeat: no-repeat;
   background-size: cover;
   border-collapse: collapse;
+  background-image: url("logotipo_hack.png");
+  width: 98%;
+  height: 30%;
 }
 .crew0 {
   width: 400px;
