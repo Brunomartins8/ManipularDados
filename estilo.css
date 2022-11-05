@@ -64,15 +64,13 @@ button {
 .aviso {
 	color: red;
 }
-	
+
 .hex_editor {
-  border-collapse: none;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-collapse: collapse;
   background-image: url("logotipo_hack.png");
-  width: 98%;
-  height: 30%;
 }
 .crew0 {
   width: 400px;
@@ -98,8 +96,8 @@ button {
   color: black;
   font-size: 10px;
   font-family: serif;
-  width: 400px;
-  height: 400px;
+  width: 250px;
+  height: 320px;
  }
 .area {
   font-size: 10px;
