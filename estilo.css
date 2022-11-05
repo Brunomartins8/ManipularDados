@@ -63,12 +63,12 @@ button {
 }
 
 .hex_editor {
-  width: 100%;
+  width: 50%;
   height: 30%;
   background-image: url("logotipo_hack.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: center;
   border-collapse: collapse;
 }
 
@@ -98,8 +98,6 @@ button {
   color: black;
   font-size: 10px;
   font-family: serif;
-  width: none;
-  height: none;
  }
  
 .area {
