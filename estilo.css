@@ -67,7 +67,7 @@ button {
   background-image: url("logotipo_hack.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: none;
+  background-size: auto;
   border-collapse: collapse;
 }
 
@@ -97,8 +97,8 @@ button {
   color: black;
   font-size: 10px;
   font-family: serif;
-  width: 250px;
-  height: 320px;
+  width: none;
+  height: none;
  }
  
 .area {
