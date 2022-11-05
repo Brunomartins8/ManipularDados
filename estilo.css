@@ -66,11 +66,13 @@ button {
 }
 
 .hex_editor {
+  width: 400px;
+  height: 400px;
+  background-image: url("logotipo_hack.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-collapse: collapse;
-  background-image: url("logotipo_hack.png");
 }
 .crew0 {
   width: 400px;
@@ -109,14 +111,13 @@ button {
   top: 18%;
   word-spacing: none;
 }
-.vd {
-  border-radius: 8px;
-  width: 99%;
-}
-th, txt {
+
+th {
+  width: 250px;
+  height: 320px;
   font-size: 100%;
   font-family: serif;
-  border: 2px solid black;
+  border: 2px solid red;
   border-collapse: collapse;
   text-align: top;
 }
