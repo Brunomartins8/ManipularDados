@@ -93,7 +93,7 @@ button {
   border-collapse: collapse;
 }
 .txt {
-  position: relative;
+  position: none;
   top: -42%;
   color: black;
   font-size: 10px;
