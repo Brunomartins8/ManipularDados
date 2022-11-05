@@ -15,7 +15,13 @@
   font-size: 20px;
   background-color: none;
 }
+table {
+  width: 100%;
+}
 
+th {
+  height: 70px;
+}
 .topo_nave :hover {
     background-color: none;
 }
