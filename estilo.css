@@ -93,11 +93,13 @@ button {
   border-collapse: collapse;
 }
 .txt {
-  position: none;
+  position: relative;
   top: -42%;
   color: black;
   font-size: 10px;
   font-family: serif;
+  width: 400px;
+  height: 400px;
  }
 .area {
   font-size: 10px;
